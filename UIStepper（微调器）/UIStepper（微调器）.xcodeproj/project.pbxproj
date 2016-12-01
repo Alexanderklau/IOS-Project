@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD92A2DC1CDD76D200B07328 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92A2DB1CDD76D200B07328 /* main.m */; };
+		CD92A2DF1CDD76D200B07328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92A2DE1CDD76D200B07328 /* AppDelegate.m */; };
+		CD92A2E21CDD76D200B07328 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92A2E11CDD76D200B07328 /* ViewController.m */; };
+		CD92A2E51CDD76D200B07328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD92A2E31CDD76D200B07328 /* Main.storyboard */; };
+		CD92A2E71CDD76D200B07328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD92A2E61CDD76D200B07328 /* Assets.xcassets */; };
+		CD92A2EA1CDD76D200B07328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD92A2E81CDD76D200B07328 /* LaunchScreen.storyboard */; };
+		CD92A2F21CDD79F100B07328 /* plus.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD92A2F11CDD79F100B07328 /* plus.gif */; };
+		CD92A2F41CDD79FF00B07328 /* minus.gif in Resources */ = {isa = PBXBuildFile; fileRef = CD92A2F31CDD79FF00B07328 /* minus.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD92A2D71CDD76D200B07328 /* UIStepper（微调器）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIStepper（微调器）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD92A2DB1CDD76D200B07328 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD92A2DD1CDD76D200B07328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD92A2DE1CDD76D200B07328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD92A2E01CDD76D200B07328 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD92A2E11CDD76D200B07328 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD92A2E41CDD76D200B07328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD92A2E61CDD76D200B07328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD92A2E91CDD76D200B07328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD92A2EB1CDD76D300B07328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD92A2F11CDD79F100B07328 /* plus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = plus.gif; sourceTree = "<group>"; };
+		CD92A2F31CDD79FF00B07328 /* minus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = minus.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD92A2D41CDD76D100B07328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD92A2CE1CDD76D100B07328 = {
+			isa = PBXGroup;
+			children = (
+				CD92A2D91CDD76D200B07328 /* UIStepper（微调器） */,
+				CD92A2D81CDD76D200B07328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD92A2D81CDD76D200B07328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD92A2D71CDD76D200B07328 /* UIStepper（微调器）.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD92A2D91CDD76D200B07328 /* UIStepper（微调器） */ = {
+			isa = PBXGroup;
+			children = (
+				CD92A2DD1CDD76D200B07328 /* AppDelegate.h */,
+				CD92A2DE1CDD76D200B07328 /* AppDelegate.m */,
+				CD92A2E01CDD76D200B07328 /* ViewController.h */,
+				CD92A2E11CDD76D200B07328 /* ViewController.m */,
+				CD92A2E31CDD76D200B07328 /* Main.storyboard */,
+				CD92A2E61CDD76D200B07328 /* Assets.xcassets */,
+				CD92A2E81CDD76D200B07328 /* LaunchScreen.storyboard */,
+				CD92A2EB1CDD76D300B07328 /* Info.plist */,
+				CD92A2DA1CDD76D200B07328 /* Supporting Files */,
+			);
+			path = "UIStepper（微调器）";
+			sourceTree = "<group>";
+		};
+		CD92A2DA1CDD76D200B07328 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD92A2F11CDD79F100B07328 /* plus.gif */,
+				CD92A2F31CDD79FF00B07328 /* minus.gif */,
+				CD92A2DB1CDD76D200B07328 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD92A2D61CDD76D100B07328 /* UIStepper（微调器） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD92A2EE1CDD76D300B07328 /* Build configuration list for PBXNativeTarget "UIStepper（微调器）" */;
+			buildPhases = (
+				CD92A2D31CDD76D100B07328 /* Sources */,
+				CD92A2D41CDD76D100B07328 /* Frameworks */,
+				CD92A2D51CDD76D100B07328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIStepper（微调器）";
+			productName = "UIStepper（微调器）";
+			productReference = CD92A2D71CDD76D200B07328 /* UIStepper（微调器）.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD92A2CF1CDD76D100B07328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lwb;
+				TargetAttributes = {
+					CD92A2D61CDD76D100B07328 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CD92A2D21CDD76D100B07328 /* Build configuration list for PBXProject "UIStepper（微调器）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD92A2CE1CDD76D100B07328;
+			productRefGroup = CD92A2D81CDD76D200B07328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD92A2D61CDD76D100B07328 /* UIStepper（微调器） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD92A2D51CDD76D100B07328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD92A2F21CDD79F100B07328 /* plus.gif in Resources */,
+				CD92A2EA1CDD76D200B07328 /* LaunchScreen.storyboard in Resources */,
+				CD92A2F41CDD79FF00B07328 /* minus.gif in Resources */,
+				CD92A2E71CDD76D200B07328 /* Assets.xcassets in Resources */,
+				CD92A2E51CDD76D200B07328 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD92A2D31CDD76D100B07328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD92A2E21CDD76D200B07328 /* ViewController.m in Sources */,
+				CD92A2DF1CDD76D200B07328 /* AppDelegate.m in Sources */,
+				CD92A2DC1CDD76D200B07328 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD92A2E31CDD76D200B07328 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD92A2E41CDD76D200B07328 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD92A2E81CDD76D200B07328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD92A2E91CDD76D200B07328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD92A2EC1CDD76D300B07328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD92A2ED1CDD76D300B07328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD92A2EF1CDD76D300B07328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIStepper（微调器）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UIStepper-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD92A2F01CDD76D300B07328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIStepper（微调器）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UIStepper-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD92A2D21CDD76D100B07328 /* Build configuration list for PBXProject "UIStepper（微调器）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92A2EC1CDD76D300B07328 /* Debug */,
+				CD92A2ED1CDD76D300B07328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD92A2EE1CDD76D300B07328 /* Build configuration list for PBXNativeTarget "UIStepper（微调器）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD92A2EF1CDD76D300B07328 /* Debug */,
+				CD92A2F01CDD76D300B07328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD92A2CF1CDD76D100B07328 /* Project object */;
+}

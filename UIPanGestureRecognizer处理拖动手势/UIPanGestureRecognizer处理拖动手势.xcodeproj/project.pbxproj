@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD800BD31CF4522F002B189B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD800BD21CF4522F002B189B /* main.m */; };
+		CD800BD61CF45231002B189B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD800BD51CF45231002B189B /* AppDelegate.m */; };
+		CD800BD91CF45232002B189B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD800BD81CF45232002B189B /* ViewController.m */; };
+		CD800BDC1CF45232002B189B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD800BDA1CF45232002B189B /* Main.storyboard */; };
+		CD800BDE1CF45233002B189B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD800BDD1CF45233002B189B /* Assets.xcassets */; };
+		CD800BE11CF45233002B189B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD800BDF1CF45233002B189B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD800BCE1CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPanGestureRecognizer处理拖动手势.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD800BD21CF4522F002B189B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD800BD41CF45231002B189B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD800BD51CF45231002B189B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD800BD71CF45231002B189B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD800BD81CF45232002B189B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD800BDB1CF45232002B189B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD800BDD1CF45233002B189B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD800BE01CF45233002B189B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD800BE21CF45233002B189B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD800BCB1CF4522F002B189B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD800BC51CF4522F002B189B = {
+			isa = PBXGroup;
+			children = (
+				CD800BD01CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势 */,
+				CD800BCF1CF4522F002B189B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD800BCF1CF4522F002B189B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD800BCE1CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD800BD01CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势 */ = {
+			isa = PBXGroup;
+			children = (
+				CD800BD41CF45231002B189B /* AppDelegate.h */,
+				CD800BD51CF45231002B189B /* AppDelegate.m */,
+				CD800BD71CF45231002B189B /* ViewController.h */,
+				CD800BD81CF45232002B189B /* ViewController.m */,
+				CD800BDA1CF45232002B189B /* Main.storyboard */,
+				CD800BDD1CF45233002B189B /* Assets.xcassets */,
+				CD800BDF1CF45233002B189B /* LaunchScreen.storyboard */,
+				CD800BE21CF45233002B189B /* Info.plist */,
+				CD800BD11CF4522F002B189B /* Supporting Files */,
+			);
+			path = "UIPanGestureRecognizer处理拖动手势";
+			sourceTree = "<group>";
+		};
+		CD800BD11CF4522F002B189B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD800BD21CF4522F002B189B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD800BCD1CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD800BE51CF45233002B189B /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizer处理拖动手势" */;
+			buildPhases = (
+				CD800BCA1CF4522F002B189B /* Sources */,
+				CD800BCB1CF4522F002B189B /* Frameworks */,
+				CD800BCC1CF4522F002B189B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIPanGestureRecognizer处理拖动手势";
+			productName = "UIPanGestureRecognizer处理拖动手势";
+			productReference = CD800BCE1CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD800BC61CF4522F002B189B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lwb;
+				TargetAttributes = {
+					CD800BCD1CF4522F002B189B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CD800BC91CF4522F002B189B /* Build configuration list for PBXProject "UIPanGestureRecognizer处理拖动手势" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD800BC51CF4522F002B189B;
+			productRefGroup = CD800BCF1CF4522F002B189B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD800BCD1CF4522F002B189B /* UIPanGestureRecognizer处理拖动手势 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD800BCC1CF4522F002B189B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD800BE11CF45233002B189B /* LaunchScreen.storyboard in Resources */,
+				CD800BDE1CF45233002B189B /* Assets.xcassets in Resources */,
+				CD800BDC1CF45232002B189B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD800BCA1CF4522F002B189B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD800BD91CF45232002B189B /* ViewController.m in Sources */,
+				CD800BD61CF45231002B189B /* AppDelegate.m in Sources */,
+				CD800BD31CF4522F002B189B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD800BDA1CF45232002B189B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD800BDB1CF45232002B189B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD800BDF1CF45233002B189B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD800BE01CF45233002B189B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD800BE31CF45233002B189B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD800BE41CF45233002B189B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD800BE61CF45233002B189B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIPanGestureRecognizer处理拖动手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UIPanGestureRecognizer------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD800BE71CF45233002B189B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIPanGestureRecognizer处理拖动手势/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.UIPanGestureRecognizer------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD800BC91CF4522F002B189B /* Build configuration list for PBXProject "UIPanGestureRecognizer处理拖动手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD800BE31CF45233002B189B /* Debug */,
+				CD800BE41CF45233002B189B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD800BE51CF45233002B189B /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizer处理拖动手势" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD800BE61CF45233002B189B /* Debug */,
+				CD800BE71CF45233002B189B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD800BC61CF4522F002B189B /* Project object */;
+}
